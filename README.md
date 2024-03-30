@@ -8,3 +8,18 @@ The whole process in this project:
 2.Secondly, tokenizing words with jieba tokenizer.
 
 3.Finally, specially inputting each sentence as a doc into lda model and extracting n key sentences by extracting the most-topic-likely n doc in doc-topic distribution.
+
+
+# Requirements
+install gsl in your env
+
+# Compile&Bulid
+./build-linux_x86.sh
+
+# Ackknowledgement
+
+The code in this project is based on Gibblda++ (https://github.com/mrquincle/gibbs-lda)
+
+and cppjieba(https://github.com/yanyiwu/cppjieba)
+
+I would like to thank all predecessorfors sharing the code and significant ideas. 
