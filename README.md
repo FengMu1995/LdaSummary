@@ -1,5 +1,8 @@
 # Introduction
 Text Summary of Chinese with lda gibbs method C++ version
+
+
+
 The whole process in this project:
 1.Firsly, splitting the text into paragraphs and splitting the paragraghs into sentences.
 2.Secondly, tokenizing words with jieba tokenizer.
